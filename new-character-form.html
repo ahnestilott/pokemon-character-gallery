@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Character | Pokédex Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">Pokédex Gallery</div>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="new-character-form.html">Add a Character</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Add a Pokémon</h1>
+        <p>Enter information for a new character in the gallery.</p>
+    </header>
+
+    <main>
+
+        <form class="character-form">
+
+            <label for="name">Pokémon Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Example: Jigglypuff"
+            >
+
+            <label for="region">Region</label>
+            <input
+                type="text"
+                id="region"
+                name="region"
+                placeholder="Example: Kanto"
+            >
+
+            <label for="type">Type</label>
+            <input
+                type="text"
+                id="type"
+                name="type"
+                placeholder="Example: Fairy / Normal"
+            >
+
+            <label for="image">Image URL</label>
+            <input
+                type="url"
+                id="image"
+                name="image"
+                placeholder="https://example.com/image.png"
+            >
+
+            <label for="description">Short Description</label>
+            <textarea
+                id="description"
+                name="description"
+                placeholder="Enter a short description of the Pokémon..."
+            ></textarea>
+
+            <button type="submit">Add Pokémon</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Pokédex Gallery | Static Web App Project</p>
+    </footer>
+
+</body>
+</html>
